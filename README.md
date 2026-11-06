@@ -100,5 +100,19 @@ streamlit run app.py
 - Display pneumonia probability.
 
 
+## Application Screenshots
+
+### Home Page
+![Home Page](screenshots/home.png)
+
+### Uploaded Chest X-ray
+![Uploaded X-ray](screenshots/uploaded_image.png)
+
+### Prediction Result
+![Prediction Result](screenshots/prediction_result.png)
+
+## Disclaimer
+This project is for educational purposes only and is not intended for medical diagnosis.
+
 ## Disclaimer
 This project is developed for educational purposes only. It is not intended to replace professional medical diagnosis.
