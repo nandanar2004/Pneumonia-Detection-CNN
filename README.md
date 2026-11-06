@@ -23,6 +23,28 @@ The model is developed using Python and TensorFlow/Keras.
 6. Model evaluation
 7. Pneumonia prediction using chest X-ray images
 
+## Model Performance
+
+The trained CNN model was evaluated on 624 test images.
+
+| Evaluation Metric | Score |
+|---|---:|
+| Test Accuracy | 80.93% |
+| Precision | 82.19% |
+| Recall | 88.72% |
+| AUC | 88.05% |
+| Test Loss | 0.4900 |
+
+### Classification Report
+
+| Class | Precision | Recall | F1-score |
+|---|---:|---:|---:|
+| NORMAL | 0.78 | 0.68 | 0.73 |
+| PNEUMONIA | 0.82 | 0.89 | 0.85 |
+
+The model achieved 80.93% test accuracy on the evaluated dataset.
+
+
 ## Project Files
 
 | File | Description |
