@@ -63,5 +63,42 @@ The model achieved 80.93% test accuracy on the evaluated dataset.
 - Improve model performance
 - Add more evaluation visualizations
 
+## Streamlit Web Application
+
+This project includes a Streamlit interface for uploading chest X-ray images and generating predictions using the trained CNN model.
+
+### Run the Application
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/nandanan2004/Pneumonia-Detection-CNN.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd Pneumonia-Detection-CNN
+```
+
+3. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Run Streamlit:
+
+```bash
+streamlit run app.py
+```
+
+### Application Features
+- Upload chest X-ray images.
+- Preview uploaded images.
+- Predict NORMAL or PNEUMONIA.
+- Display pneumonia probability.
+
+
 ## Disclaimer
 This project is developed for educational purposes only. It is not intended to replace professional medical diagnosis.
